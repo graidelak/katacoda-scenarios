@@ -1,0 +1,1 @@
+This course will teach you about the origin, architecture, primary components, and building blocks of Kubernetes. It covers how to set up and access a Kubernetes cluster using kubeadm, ways to run applications on the deployed Kubernetes environment and access the deployed applications.

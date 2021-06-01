@@ -1,24 +1,27 @@
 {
-  "title": "kubernetes",
-  "description": "kubernetes",
+  "title": "Training Kubernetes",
+  "pathway_id": "flugel",
+  "id": "flugel",
+  "course_id": "kubernetes",
+  "description": "Multi node Kubernetes cluster configured using Kubeadm",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1 - Configure Kubernetes Nodes",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - What is a Pod?",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3 - Create a Pod",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4 - Quiz",
         "text": "step4.md"
       }
     ],
@@ -30,9 +33,9 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
-    "imageid": "kubernetes-cluster"
+    "imageid": "kubernetes-cluster-running:1.18"
   }
 }

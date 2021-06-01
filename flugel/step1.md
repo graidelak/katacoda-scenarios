@@ -9,7 +9,9 @@ Now generate the kubeconfig:
 Copy the kubeconfig to the node01:
 
 `ssh node01`{{execute}}
+
 `mkdir -p /root/.kube`{{execute}}
-`scp ~/.kube/config node01:/root/.kube/`{{execute}}
+
+Go to the master terminal and run `scp ~/.kube/config node01:/root/.kube/`{{execute}}
 
 
